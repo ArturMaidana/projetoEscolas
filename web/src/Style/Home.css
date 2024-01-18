@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.home-text {
+    font-family: "Lato", sans-serif; /* Adicione a fonte desejada aqui */
+    font-size: 18px; /* Ajuste conforme necessário */
+    color: #000000; /* Cor do texto */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+}
+
+.services-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.container-margin {
+    margin-top: 50px;
+    margin-left: 100px; /* Adjust the left margin */
+    margin-right: 100px; /* Adjust the right margin */
+}
+
+/* Estilos para telas pequenas (smartphones) */
+@media (max-width: 768px) {
+    /* Adicione estilos aqui */
+}
+
+/* Estilos para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adicione estilos aqui */
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    /* Adicione estilos aqui */
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.gif {
+    width: 400px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; /* Adiciona uma margem inferior ao GIF */
+}
+
+.header-section p {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Inverte a ordem dos elementos para colocar o GIF à direita */
+.header-section img {
+    order: 2;
+}
+
+.services-section {
+    max-width: 50%; /* Define a largura máxima para a seção de serviços */
+}
+
+.services-section p {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.services-section .header-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 19px;
+    background-color: #ff1414;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.services-section .header-btn:hover {
+    background-color: transparent;
+    transition: all ease 0.5s;
+    color: #ff1414;
+    border: 2px solid #ff1414;
+}
